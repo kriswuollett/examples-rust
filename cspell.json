@@ -1,0 +1,18 @@
+{
+  "dictionaryDefinitions": [
+    { "name": "rust", "path": ".dictionaries/rust.txt" }
+  ],
+  "ignorePaths": [
+    "cspell.json",
+    ".dictionaries",
+    ".git/objects",
+    ".vscode",
+    ".cargo",
+    "Cargo.lock",
+    "Cargo.yaml"
+  ],
+  "languageSettings": [
+    { "languageId": "markdown", "dictionaries": ["rust"] },
+    { "languageId": "rust", "dictionaries": ["rust"] }
+  ]
+}
